@@ -4,7 +4,7 @@ angular.module('todoApp')
   .config(function ($stateProvider) {
     $stateProvider
       .state('main', {
-        url: '/',
+        url: '/thing',
         templateUrl: 'app/main/main.html',
         controller: 'MainCtrl'
       });
